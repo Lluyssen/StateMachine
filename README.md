@@ -9,7 +9,7 @@ Cette classe template implémente une **machine à états fortement typée** bas
 - Règles de validation (`canTransition`)
 - Callbacks : `onEnter`, `onExit`, `onTransition`, `onTransitionRefused`
 - Historique complet des transitions
-- `backToPrevious()` pour revenir à l'état précédent
+- `backToPrevious()` pour revenir à l'état précédent si possible
 
 ---
 
