@@ -1,4 +1,4 @@
-# --- StateMachine<T> – Machine à États Générique en C++ ---
+# --- StateMachine<T> – Machine à États Générique en C++
 
 ## 🧠 Description
 Cette classe template implémente une **machine à états fortement typée** basée sur un type `T` (enum ou struct). Elle prend en charge :
