@@ -1,4 +1,4 @@
-# StateMachine<T> – Machine à États Générique en C++
+# --- StateMachine<T> – Machine à États Générique en C++ ---
 
 ## 🧠 Description
 Cette classe template implémente une **machine à états fortement typée** basée sur un type `T` (enum ou struct). Elle prend en charge :
@@ -82,15 +82,3 @@ machine.transitionTo(State::Running);
 machine.transitionTo(State::Jumping);
 machine.backToPrevious(); // Reviens à Running
 ```
-
----
-
-## 📌 À venir / Suggestions
-- Support des priorités de transition
-- Visualisation DOT export
-- Unregister d’observateurs
-- Thread-safety
-
----
-
-(c) OpenAI — Exemple d’implémentation de machine à états en C++ moderne.
